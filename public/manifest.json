@@ -19,13 +19,16 @@
   ],
   "author": "zbl91555",
   "createdAt": "2024-06-22",
-  "gateway": "http://localhost:3400/api/gateway",
   "identifier": "wikipedia",
   "meta": {
     "avatar": "🚀",
     "tags": ["wikipedia"],
     "title": "Wikipedia",
-    "description": "Ask questions about general knowledge, current events, and breaking news, and get up-to-date answers from Wikipedia.The language of the response needs to be consistent with the question and answer."
+    "description": "Ask questions about general knowledge, current events, and breaking news, and get up-to-date answers from Wikipedia."
+  },
+  "ui": {
+    "url": "http://localhost:3400/iframe",
+    "height": 200
   },
   "version": "1"
 }

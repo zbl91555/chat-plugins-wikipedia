@@ -52,16 +52,19 @@
     "not ie <= 10"
   ],
   "dependencies": {
+    "@langchain/community": "^0.2.13",
     "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
     "@lobehub/ui": "latest",
     "antd": "^5",
     "antd-style": "^3",
     "dayjs": "^1",
+    "langchain": "^0.2.6",
     "next": "13.4.7",
     "react": "^18",
     "react-dom": "^18",
-    "react-layout-kit": "^1"
+    "react-layout-kit": "^1",
+    "wikipedia": "^2.1.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^18",
